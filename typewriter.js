@@ -5,6 +5,9 @@ const printSentance = function(sentance) {
       // prints each letter on same line:
       process.stdout.write(sentance[i]);
     }, 50 * i);
+    setTimeout(() => {
+      console.log();
+    }, 50 * sentance.length);
   }
 };
 
