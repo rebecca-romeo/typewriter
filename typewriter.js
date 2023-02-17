@@ -2,5 +2,7 @@
 
 const sentence = "hello there";
 for (const char of sentence) {
-  console.log(char);
+  // prints each letter in the same line:
+  process.stdout.write(char);
 }
+
